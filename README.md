@@ -177,13 +177,11 @@ extract some information from the GTF file.
 2. **Spec version:** Use the `briefs/parse-gtf-genes-01.md` and fill in
    at least the following:
    - what to do with a record that has no `gene_name`;
-   - how to handle comment lines, attribute quoting, and attributes in a
-     different order;
+   - how to handle comment lines
    - what to do with a gene that appears many times;
    - what the function returns (a dict? a list of pairs? a file?)
-   - How to accept inputs and how to write its outputs (e.g. argparse)
-   - What libraries should it use? Standard only? Specialized libraries?
-   - Use static typing conventions in nextflow
+   - how to accept inputs and how to write its outputs (e.g. argparse)
+   - what libraries should it use? Standard only? Specialized libraries?
 
 If you are unsure about any of the above, leave it blank and see what happens in
 the resulting code.
@@ -224,6 +222,7 @@ ones to remember are below:
 5. **Composability** does the module include a `stub` command that will let you
    troubleshoot the workflow first before running it for real?
 6. **Name of the process** 
+7. **Static Typing** - Ensure it uses static typing conventions
 
 Translate these to one-line statements that you can put in the requirements
 for the two briefs. 
