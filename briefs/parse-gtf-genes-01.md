@@ -1,28 +1,13 @@
 ---
-id: nextflow-gtf-genes-01
-title: Nextflow process wrapping the GTF gene parser
+id: parse-gtf-genes-01
+title: Python script for parsing a GTF
 status: draft
 target_files:
-  - modules/gtf_parse/main.nf
+  - bin/parse_gtf.py
 ---
 
-<!--
-  BLANK BRIEF — fill this in after gtf-genes-01 (Part 3) is implemented and
-  you've checked it works. Do not start this until that function's logic is
-  verified; any failure you hit here should be about Nextflow wrapping, not
-  about the underlying parser.
-
-  NOTE: there are no in-repo tests for this brief. Verification is
-  either manual review of the process or running it outside this repo.
-  Whichever you use, record it and its result in the log entry.
-
-  Resolve each prompt into a declarative Requirements bullet, same as you
-  did for the Python brief. Delete these prompts once done.
--->
-
 ## Context
-One or two sentences: what this process does, and that it uses the script you
-developed earlier
+One or two sentences: what this process does.
 
 ## Inputs / Outputs
 

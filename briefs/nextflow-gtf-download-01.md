@@ -3,7 +3,7 @@ id: nextflow-gtf-download-01
 title: Nextflow process that downloads a GTF
 status: draft
 target_files:
-  - modules/gtf_download.nf
+  - modules/download/main.nf
 ---
 
 <!--

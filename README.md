@@ -174,7 +174,7 @@ extract some information from the GTF file.
    that parses a GTF file and returns each gene's gene_id and
    gene_name."* Save the result as `src/gtf_genes_naive.py`.
 
-2. **Spec version:** Use the `briefs/nextflow-gtf-genes-01.md` and fill in
+2. **Spec version:** Use the `briefs/parse-gtf-genes-01.md` and fill in
    at least the following:
    - what to do with a record that has no `gene_name`;
    - how to handle comment lines, attribute quoting, and attributes in a
@@ -183,6 +183,7 @@ extract some information from the GTF file.
    - what the function returns (a dict? a list of pairs? a file?)
    - How to accept inputs and how to write its outputs (e.g. argparse)
    - What libraries should it use? Standard only? Specialized libraries?
+   - Use static typing conventions in nextflow
 
 If you are unsure about any of the above, leave it blank and see what happens in
 the resulting code.
