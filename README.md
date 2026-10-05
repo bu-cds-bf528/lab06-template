@@ -187,10 +187,10 @@ If you are unsure about any of the above, leave it blank and see what happens in
 the resulting code.
 
 3. In this repo, ask Claude Code to implement `briefs/gtf-genes-01.md`.
-4. Run both versions on the same small GTF file provided for you and compare: 
-   for each decision in your brief, what did the naive version silently decide 
-   instead? There are many more possible choices here than in GC content or 
-   sliding window, so expect more differences.
+4. Run both versions on the same small GTF file provided for you in `references/`
+   and compare: for each decision in your brief, what did the naive version 
+   silently decide instead? There are many more possible choices here than in GC
+   content or sliding window, so expect more differences.
 
 ### Part 4: Nextflow 
 
