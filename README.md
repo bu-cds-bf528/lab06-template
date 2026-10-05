@@ -187,6 +187,13 @@ If you are unsure about any of the above, leave it blank and see what happens in
 the resulting code.
 
 3. In this repo, ask Claude Code to implement `briefs/gtf-genes-01.md`.
+
+Depending on how your script is setup, you can likely run it with a command like:
+
+```bash
+python bin/parse_gtf.py -i references/subset.gtf -o test.txt
+```
+
 4. Run both versions on the same small GTF file provided for you in `references/`
    and compare: for each decision in your brief, what did the naive version 
    silently decide instead? There are many more possible choices here than in GC
